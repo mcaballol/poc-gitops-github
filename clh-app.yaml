@@ -8,7 +8,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: deploy-environment
+    path: app1/environment
     repoURL: https://github.com/RataRusa/poc-gitops-github.git
     targetRevision: main
   syncPolicy:
