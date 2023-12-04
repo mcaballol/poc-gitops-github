@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   sources:
-    - path: bdg/overlays/qa
+    - path: bgd/overlays/qa
       repoURL: https://github.com/mcaballol/poc-gitops-github.git
       targetRevision: main
 
