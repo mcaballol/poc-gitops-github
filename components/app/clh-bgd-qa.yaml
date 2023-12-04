@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: clh-apps-dev
+  name: clh-apps-qa
   namespace: openshift-gitops
 spec:
   destination:
