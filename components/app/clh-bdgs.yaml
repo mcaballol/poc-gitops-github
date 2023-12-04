@@ -1,0 +1,20 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: clh-apps
+spec:
+  destination:
+    namespace: clh-poc
+    server: https://kubernetes.default.svc
+  project: default
+  sources:
+    - path: bdg-1/overlays/default
+      repoURL: https://github.com/mcaballol/poc-gitops-github.git
+      targetRevision: main
+    - path: bdg-2/overlays/default
+      repoURL: https://github.com/mcaballol/poc-gitops-github.git
+      targetRevision: main
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: false
