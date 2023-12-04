@@ -15,7 +15,7 @@ spec:
     metadata:
       creationTimestamp: null
       labels:
-        app: bgd
+        app: bgd-2
     spec:
       containers:
       - image: quay.io/rhdevelopers/bgd:1.0.0
