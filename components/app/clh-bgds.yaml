@@ -8,10 +8,10 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   sources:
-    - path: bdg-1/overlays/default
+    - path: bgd-1/overlays/default
       repoURL: https://github.com/mcaballol/poc-gitops-github.git
       targetRevision: main
-    - path: bdg-2/overlays/default
+    - path: bgd-2/overlays/default
       repoURL: https://github.com/mcaballol/poc-gitops-github.git
       targetRevision: main
   syncPolicy:
