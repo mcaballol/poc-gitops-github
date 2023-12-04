@@ -12,7 +12,9 @@ spec:
     - path: bgd/overlays/dev
       repoURL: https://github.com/mcaballol/poc-gitops-github.git
       targetRevision: main
-
+    - path: bgd-1/overlays/dev
+      repoURL: https://github.com/mcaballol/poc-gitops-github.git
+      targetRevision: main
   syncPolicy:
     automated:
       prune: true
